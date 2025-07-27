@@ -4,13 +4,14 @@
 Proyek ini melakukan Optical Character Recognition (OCR) pada gambar plat nomor kendaraan menggunakan model LLaVA v1.5 yang dijalankan secara lokal dengan LM Studio. Model ini menerima gambar dan prompt untuk mengenali isi plat.
 
 ##  Struktur Proyek
+```
 aas/
 ├── test/ # Folder gambar plat nomor
 ├── labels.csv # Label ground truth plat
 ├── ocr_predict.py # Script untuk memprediksi isi plat nomor
 ├── analisis_hasil.py # Script untuk mengevaluasi hasil (CER)
 ├── hasil_prediksi.csv # Output akhir prediksi
-
+```
 
 ##  Tools yang Digunakan
 - LM Studio (GUI + API server untuk LLaVA)
