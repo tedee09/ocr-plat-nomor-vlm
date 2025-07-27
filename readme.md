@@ -75,8 +75,10 @@ Hasil akhir akan tersimpan dalam file hasil_prediksi.csv, dan output analisis ak
   -  Gagal: 71 gambar
 
 ##  Formula CER
+```
 CER = (S + D + I) / N
 S = substitusi
 D = deletion
 I = insertion
 N = jumlah karakter ground truth
+```
