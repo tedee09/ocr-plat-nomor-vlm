@@ -67,13 +67,12 @@ python analisis_hasil.py
 Hasil akhir akan tersimpan dalam file hasil_prediksi.csv, dan output analisis akan tampil di terminal (jumlah prediksi berdasarkan kategori dan rata-rata CER).
 
 ##  Formula CER
-```
 CER = (S + D + I) / N
-S = substitusi
-D = deletion
-I = insertion
-N = jumlah karakter ground truth
-```
+- S = substitusi
+- D = deletion
+- I = insertion
+- N = jumlah karakter ground truth
+
 
 ##  Evaluasi Hasil
 - Gambar diuji: **168**
