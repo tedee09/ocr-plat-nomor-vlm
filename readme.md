@@ -66,14 +66,6 @@ python analisis_hasil.py
 ```
 Hasil akhir akan tersimpan dalam file hasil_prediksi.csv, dan output analisis akan tampil di terminal (jumlah prediksi berdasarkan kategori dan rata-rata CER).
 
-##  Evaluasi Hasil
-- Gambar diuji: **168**
-- Rata-rata CER: **~0.586**
-- Distribusi hasil:
-  -  Akurat: 6 gambar
-  -  Lumayan: 91 gambar
-  -  Gagal: 71 gambar
-
 ##  Formula CER
 ```
 CER = (S + D + I) / N
@@ -82,3 +74,23 @@ D = deletion
 I = insertion
 N = jumlah karakter ground truth
 ```
+
+##  Evaluasi Hasil
+- Gambar diuji: **168**
+- Rata-rata CER: **~0.586**
+- Distribusi hasil:
+  -  Akurat: 6 gambar
+  -  Lumayan: 91 gambar
+  -  Gagal: 71 gambar
+
+### Contoh Prediksi Akurat:
+- Image         : test034_1.jpg
+- Ground Truth  : L1811SU
+- Prediction    : L1811S
+- CER Score     : 0.143
+
+### Contoh Prediksi Gagal:
+- Image         : test001_1.jpg
+- Ground Truth  : B9140BCD
+- Prediction    : B9114111
+- CER Score     : 0.625
