@@ -18,7 +18,7 @@ aas/
 - Python 3.11
 - Libraries: `requests`, `pandas`, `Levenshtein`
 
-## ▶️ Cara Menjalankan
+##  Cara Menjalankan
 
 ### 1. Aktifkan Model LLaVA di LM Studio
 
@@ -74,7 +74,7 @@ Hasil akhir akan tersimpan dalam file hasil_prediksi.csv, dan output analisis ak
   -  Lumayan: 91 gambar
   -  Gagal: 71 gambar
 
-## 📖 Formula CER
+##  Formula CER
 CER = (S + D + I) / N
 S = substitusi
 D = deletion
